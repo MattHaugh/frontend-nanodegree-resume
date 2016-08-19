@@ -19,6 +19,8 @@ $("#header").append(formattedRole);
 
 var str = "audacity";
 
-var str2 = str.slice(2);
+var str2 = str.slice(1);
 
-console.log("U".concat(st2));
+var str3 = str.replace(/u/i, "U"); 
+
+console.log(st3);
