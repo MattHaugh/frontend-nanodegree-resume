@@ -21,5 +21,6 @@ var str = "audacity";
 
 var str2 = str.slice(2);
 
-"U" + str2 = str2;
-console.log(str2);
+var str2 = "U" + str2;
+
+console.log(str3);
