@@ -16,3 +16,10 @@ $("#main").append(realThoughts);
 
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
+
+var str = "audacity";
+
+var str2 = str.slice(2);
+
+str2 + "U";
+console.log(str2);
