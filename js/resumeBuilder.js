@@ -36,10 +36,10 @@ console.log(str3);
  var formattedRole = HTMLheaderRole.replace("%data%","Will Code for Money");
 
  var formattedPic = HTMLbioPic.replace("%data%", bio.photo);
- var formattedMobil = HTMLmobile.replace("%data%", contact.mobil);
- var formattedTwitter = HTMLtwitter.replace("%data%", contact.twitter);
- var formattedEmail = HTMLemail.replace("%data%", contact.email);
- var formattedGithub = HTMLgithub.replace("%data%", contact.github);
+ var formattedMobil = HTMLmobile.replace("%data%", bio.contact.mobil);
+ var formattedTwitter = HTMLtwitter.replace("%data%", bio.contact.twitter);
+ var formattedEmail = HTMLemail.replace("%data%", bio.contact.email);
+ var formattedGithub = HTMLgithub.replace("%data%", bio.contact.github);
  var formattedWelcome =  HTMLwelcomeMsg.replace("%data%", bio.welcome);
  var formattedSkills = HTMLskills.replace("%data%", bio.skills);
 
