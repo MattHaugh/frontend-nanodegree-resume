@@ -21,6 +21,6 @@ var str = "audacity";
 
 var str2 = str.slice(1);
 
-var str3 = str.replace(/u/i, "U"); 
+var str3 = str2.replace(/u/i, "U"); 
 
 console.log(st3);
