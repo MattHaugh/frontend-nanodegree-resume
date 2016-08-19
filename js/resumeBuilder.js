@@ -18,7 +18,7 @@ var str3 = str2.replace(/u/i, "U");
 
 console.log(str3);
  */
- var skills = ["Java Experience", " C++ Experience", " JavaScript Experience", " Dish Washing" , " Food Prep"];
+ var skills = ["Java Experience", " C++ Experience", " JavaScript Experience", " Dish Washing" , " Food Prep"]; // BIO
  var bio = {
  	"name" : "Matt Haugh",
 	"role" : "Will code for Money",
@@ -33,13 +33,46 @@ console.log(str3);
 	"welcome" : "Welcome to my Resume, I hope to fill it out a little more before it really gets used."
 };
 
- var work = {"name":"Weddings by the Pond"};
+ var work = {
+ 	"Jobs": [
+ 	{
+ 		"title" : "Dish Washer",
+ 		"employer" : "Weddings by the Pond" ,
+ 		"dates" : "July 2014 - Januaray 2016",
+ 		"location" : "Blue Bell, PA",
+ 		"description" : "Primarily washed dishes for a wedding catering company, but I also helped prepare and garnish food as well as landscaping projects at the same location." 
+ 	}
+ 	]
+ };
 
- work.position = "Dish Washer";
- work.years = "2014-2015";
- work.city = "Blue Bell";
+ var education = { //Education
+ 	"schools": [
+ 	{
+ 		"name":"Wissahickon High School" ,
+ 		"city":"Blue Bell, PA"
+ 	}
+ 	],
+ 	"onlineCourses" : [
+ 	{
+ 		"title" : "JavaScrpit Basics",
+ 		"school" : "Udacity" ,
+ 		"dates" : "August, 2016",
+ 		"url" : "https://www.udacity.com/course/viewer#!/c-ud804/l-1946788554/m-2550568535"
+ 	}
+ 	]
 
- var education = {};
+ };
+
+ var projects = {
+ 	"projects": [
+ 	{
+ 		"title" : "",
+ 		"dates" : "July 2014 - Januaray 2016",
+ 		"description" : "Primarily washed dishes for a wedding catering company, but I also helped prepare and garnish food as well as landscaping projects at the same location." ,
+ 		"images" : ""
+ 	}
+ 	]
+ };
 
  education["school"] = "Wissahickon High School";
  education["years"] = "2009-2013";
@@ -67,5 +100,5 @@ $("#main").append(formattedGithub);
 $("#main").append(HTMLskillsStart);
 $("#main").append(formattedSkills);
 
-$("#main").append(work.position);
-$("#main").append(education["school"]);
+//$("#main").append(work.position);
+//$("#main").append(education["school"]);
