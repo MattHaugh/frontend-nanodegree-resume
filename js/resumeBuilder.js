@@ -33,13 +33,14 @@ console.log(str3);
 	"welcome" : "Welcome to my Resume, I hope to fill it out a little more before it really gets used."
 };
 
- var work.employer = "Weddings by the Pond";
+ var work = {"name":"Weddings by the Pond"};
 
  work.position = "Dish Washer";
  work.years = "2014-2015";
  work.city = "Blue Bell";
 
- var education["school"] = "Wissahickon High School";
+ var education = {"school" : "Wissahickon High School"};
+
  education["years"] = "2009-2013";
  education["city"] = "Blue Bell"
 
