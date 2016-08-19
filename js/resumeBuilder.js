@@ -25,7 +25,7 @@ console.log(str3);
 	"role" : "Will code for Money",
 	"contact" : contactinfo,
 	"skills" : skills,
-	"photo" : images/fry.jpg
+	"photo" : images/fry.jpg,
 	"welcome" : "Welcome to my Resume, I hope to fill it out a little more before it really gets used."
 };
  var formattedName = HTMLheaderName.replace("%data%", "Matt Haugh");
