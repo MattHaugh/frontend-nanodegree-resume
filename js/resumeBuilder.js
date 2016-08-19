@@ -19,7 +19,7 @@ var str3 = str2.replace(/u/i, "U");
 console.log(str3);
  */
  var skills = ["Java Experience", "C++ Experience", "JavaScript Experience", "Dish Washing" , "Food Prep"];
- var contactinfo["555-555-555", "@Matthaugh", "haughMatt@gmail.com" , "https://github.com/MattHaugh"];
+ var contactinfo = ["555-555-555", "@Matthaugh", "haughMatt@gmail.com" , "https://github.com/MattHaugh"];
  var bio {"name" : "Matt Haugh",
 	"role" : "Will code for Money",
 	"contact" : contactinfo,
@@ -47,5 +47,3 @@ $("#main").append(formattedTwitter);
 $("#main").append(formattedEmail);
 $("#main").append(formattedGithub);
 $("#main").append(formattedSkills);
-
-
