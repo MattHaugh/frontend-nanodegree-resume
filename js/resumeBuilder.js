@@ -21,6 +21,4 @@ var str = "audacity";
 
 var str2 = str.slice(2);
 
-var str2 = "U" + str2;
-
-console.log(str3);
+console.log("U".concat(st2));
