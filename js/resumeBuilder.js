@@ -32,7 +32,7 @@ console.log(str3);
  var formattedRole = HTMLheaderRole.replace("%data%","Will Code for Money");
 
  var formattedPic = HTMLbioPic.replace("%data%", bio.photo);
- var formattedMobil = HTMLmobil.replace("%data%", contactinfo[0]);
+ var formattedMobil = HTMLmobile.replace("%data%", contactinfo[0]);
  var formattedTwitter = HTMLtwitter.replace("%data%", contactinfo[1]);
  var formattedEmail = HTMLemail.replace("%data%", contactinfo[2]);
  var formattedGithub = HTMLgithub.replace("%data%", contactinfo[3]);
