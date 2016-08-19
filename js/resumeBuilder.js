@@ -8,6 +8,13 @@ Cool Beans
  var realThoughts = awesomeThoughts.replace("AWESOME", "Okay I guess");
 
 $("#main").append(realThoughts);
+var str = "audacity";
+
+var str2 = str.slice(1);
+
+var str3 = str2.replace(/u/i, "U"); 
+
+console.log(str3);
  */
 
  var formattedName = HTMLheaderName.replace("%data%", "Matt Haugh");
@@ -17,10 +24,6 @@ $("#main").append(realThoughts);
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
 
-var str = "audacity";
+var skills = ["Java Experience", "C++ Experience", "JavaScript Experience"];
 
-var str2 = str.slice(1);
-
-var str3 = str2.replace(/u/i, "U"); 
-
-console.log(str3);
+console.log(skills.length);
