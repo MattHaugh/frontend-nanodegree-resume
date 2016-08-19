@@ -67,4 +67,4 @@ $("#main").append(HTMLskillsStart);
 $("#main").append(formattedSkills);
 
 $("#main").append(work.position);
-$("#main").append(education[name]);
+$("#main").append(education[school]);
