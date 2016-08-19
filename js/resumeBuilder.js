@@ -5,4 +5,4 @@ Cool Beans
 
  var awesomeThoughts = "I am Matt Haugh and I am AWESOME!"
 
- var realThoughts.replace("AWESOME", "Okay I guess");
+ var realThoughts = awesomeThoughts.replace("AWESOME", "Okay I guess");
