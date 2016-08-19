@@ -15,3 +15,4 @@ $("#main").append(realThoughts);
  var formattedRole = HTMLheaderRole.replace("%data%","Will Code for Money");
 
 $("#header").append(formattedName);
+$("#header").append(formattedRole);
