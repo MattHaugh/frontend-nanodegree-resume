@@ -32,6 +32,17 @@ console.log(str3);
 	"photo" : "images/fry.jpg",
 	"welcome" : "Welcome to my Resume, I hope to fill it out a little more before it really gets used."
 };
+
+ var work.employer = "Weddings by the Pond";
+
+ work.position = "Dish Washer";
+ work.years = "2014-2015";
+ work.city = "Blue Bell";
+
+ var education["school"] = "Wissahickon High School";
+ education["years"] = "2009-2013";
+ education["city"] = "Blue Bell"
+
  var formattedName = HTMLheaderName.replace("%data%", "Matt Haugh");
  var formattedRole = HTMLheaderRole.replace("%data%","Will Code for Money");
 
@@ -53,3 +64,6 @@ $("#main").append(formattedEmail);
 $("#main").append(formattedGithub);
 $("#main").append(HTMLskillsStart);
 $("#main").append(formattedSkills);
+
+$("#main").append(work.position);
+$("#main").append(education[name]);
