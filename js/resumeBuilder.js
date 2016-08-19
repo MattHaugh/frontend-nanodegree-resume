@@ -39,8 +39,9 @@ console.log(str3);
  work.years = "2014-2015";
  work.city = "Blue Bell";
 
- var education = {"school" : "Wissahickon High School"};
+ var education = {};
 
+ education["school"] = "Wissahickon High School";
  education["years"] = "2009-2013";
  education["city"] = "Blue Bell"
 
