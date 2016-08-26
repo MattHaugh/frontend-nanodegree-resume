@@ -106,7 +106,7 @@ console.log(skillsNum);
 
 $("#header").append(HTMLskillsStart);
 
-if(skillsNum > -1){
+if(skillsNum > 0){
 
 skillsNum = skillsNum -1;
 
