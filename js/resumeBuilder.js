@@ -102,7 +102,7 @@ var formattedSkills;
 
 var skillsNum = bio.skills.length;
 
-console.(skillsNum);
+console.log(skillsNum);
 
 $("#header").append(HTMLskillsStart);
 
