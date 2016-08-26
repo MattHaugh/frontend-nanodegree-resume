@@ -67,9 +67,9 @@ console.log(str3);
  	"projects": [
  	{
  		"title" : "",
- 		"dates" : "July 2014 - Januaray 2016",
- 		"description" : "Primarily washed dishes for a wedding catering company, but I also helped prepare and garnish food as well as landscaping projects at the same location." ,
- 		"images" : ""
+ 		"dates" : "",
+ 		"description" : "" ,
+ 		"images" : ["",""] //THIS NEEDS TO BE AN ARRAY ONCE YOU KNOW WHAT TO DO WITH IT
  	}
  	]
  };
@@ -77,7 +77,7 @@ console.log(str3);
  education["school"] = "Wissahickon High School";
  education["years"] = "2009-2013";
  education["city"] = "Blue Bell"
-
+/*
  var formattedName = HTMLheaderName.replace("%data%", "Matt Haugh");
  var formattedRole = HTMLheaderRole.replace("%data%","Will Code for Money");
 
@@ -99,6 +99,6 @@ $("#main").append(formattedEmail);
 $("#main").append(formattedGithub);
 $("#main").append(HTMLskillsStart);
 $("#main").append(formattedSkills);
-
+*/
 //$("#main").append(work.position);
 //$("#main").append(education["school"]);
