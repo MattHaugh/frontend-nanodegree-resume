@@ -102,7 +102,7 @@ var formattedSkills;
 
 var skillsNum = bio.skills.length;
 
-console.log(skillsNum);
+console.log("First: "skillsNum);
 
 $("#header").append(HTMLskillsStart);
 
@@ -114,7 +114,7 @@ formattedSkills = bio.skills[skillsNum].replace("%data%", bio.skills);
 
 $("#header").append(formattedSkills);
 
-console.log(bio.skills[skillsNum]);
+console.log("In the loop: " bio.skills[skillsNum]);
 };
 
 
