@@ -114,7 +114,7 @@ skillsNum = skillsNum -1;
 
 $("#header").append(formattedSkills);
 
-console.(skillsNum);
+console.log(skillsNum);
 };
 
 
