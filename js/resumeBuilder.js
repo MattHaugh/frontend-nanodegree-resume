@@ -98,17 +98,12 @@ $("#header").append(formattedTwitter);
 $("#header").append(formattedEmail);
 $("#header").append(formattedGithub);
 
-var formattedSkills;
-
-
-
-
 
 if(bio.skills.length != 0){
 
 $("#header").append(HTMLskillsStart);
 
-formattedSkills = bio.skills.replace("%data%", bio.skills);
+var formattedSkills = bio.skills.replace("%data%", bio.skills);
 
 $("#header").append(formattedSkills);
 
