@@ -100,21 +100,18 @@ $("#header").append(formattedGithub);
 
 var formattedSkills;
 
-var skillsNum = bio.skills.length;
 
-console.log("First: " + skillsNum);
+
+
+
+if(bio.skills.length != 0){
 
 $("#header").append(HTMLskillsStart);
 
-if(skillsNum > 0){
-
-skillsNum = skillsNum - 1;
-
-formattedSkills = bio.skills[skillsNum].replace("%data%", bio.skills);
+formattedSkills = bio.skills.replace("%data%", bio.skills);
 
 $("#header").append(formattedSkills);
 
-console.log("In the loop: " + bio.skills[skillsNum]);
 };
 
 
