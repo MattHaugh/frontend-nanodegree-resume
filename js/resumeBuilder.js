@@ -77,7 +77,7 @@ console.log(str3);
  education["school"] = "Wissahickon High School";
  education["years"] = "2009-2013";
  education["city"] = "Blue Bell"
-/*
+
  var formattedName = HTMLheaderName.replace("%data%", "Matt Haugh");
  var formattedRole = HTMLheaderRole.replace("%data%","Will Code for Money");
 
@@ -99,6 +99,6 @@ $("#main").append(formattedEmail);
 $("#main").append(formattedGithub);
 $("#main").append(HTMLskillsStart);
 $("#main").append(formattedSkills);
-*/
+
 //$("#main").append(work.position);
 //$("#main").append(education["school"]);
