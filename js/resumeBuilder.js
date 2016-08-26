@@ -114,7 +114,7 @@ formattedSkills = bio.skills[skillsNum].replace("%data%", bio.skills);
 
 $("#header").append(formattedSkills);
 
-console.log(skillsNum);
+console.log(bio.skills[skillsNum]);
 };
 
 
