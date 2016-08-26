@@ -97,8 +97,23 @@ $("#header").append(formattedMobil);
 $("#header").append(formattedTwitter);
 $("#header").append(formattedEmail);
 $("#header").append(formattedGithub);
+
+var formattedSkills;
+
+var skillsNum = bio.skills.length;
+
 $("#header").append(HTMLskillsStart);
+
+if(skillsNum > -1){
+
+formattedSkills = bio.skills[skillsNum].replace("%data%", bio.skills);
+
+skillsNum = skillsNum -1;
+
 $("#header").append(formattedSkills);
+}
+
+
 
 //$("#main").append(work.position);
 //$("#main").append(education["school"]);
