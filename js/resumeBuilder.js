@@ -108,9 +108,9 @@ $("#header").append(HTMLskillsStart);
 
 if(skillsNum > -1){
 
-formattedSkills = bio.skills[skillsNum].replace("%data%", bio.skills);
-
 skillsNum = skillsNum -1;
+
+formattedSkills = bio.skills[skillsNum].replace("%data%", bio.skills);
 
 $("#header").append(formattedSkills);
 
