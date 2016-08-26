@@ -87,7 +87,7 @@ console.log(str3);
  var formattedEmail = HTMLemail.replace("%data%", bio.contact.email);
  var formattedGithub = HTMLgithub.replace("%data%", bio.contact.github);
  var formattedWelcome =  HTMLwelcomeMsg.replace("%data%", bio.welcome);
- var formattedSkills = HTMLskills.replace("%data%", bio.skills);
+// var formattedSkills = HTMLskills.replace("%data%", bio.skills);
 
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
