@@ -91,14 +91,14 @@ console.log(str3);
 
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
-$("#main").append(formattedWelcome);
-$("#main").append(formattedPic);
-$("#main").append(formattedMobil);
-$("#main").append(formattedTwitter);
-$("#main").append(formattedEmail);
-$("#main").append(formattedGithub);
-//$("#main").append(HTMLskillsStart);
-$("#main").append(HTMLskills);
+$("#header").append(formattedWelcome);
+$("#header").append(formattedPic);
+$("#header").append(formattedMobil);
+$("#header").append(formattedTwitter);
+$("#header").append(formattedEmail);
+$("#header").append(formattedGithub);
+$("#header").append(HTMLskillsStart);
+$("#header").append(formattedSkills);
 
 //$("#main").append(work.position);
 //$("#main").append(education["school"]);
