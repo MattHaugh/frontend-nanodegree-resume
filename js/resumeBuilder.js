@@ -89,19 +89,16 @@ console.log(str3);
  var formattedWelcome =  HTMLwelcomeMsg.replace("%data%", bio.welcome);
  var formattedSkills = HTMLskills.replace("%data%", bio.skills);
 
-
 $("#header").append(formattedName);
 $("#header").append(formattedRole);
-
-$("#main").append(HTMLskillsStart);
-$("#main").append(formattedSkills);
 $("#main").append(formattedWelcome);
 $("#main").append(formattedPic);
 $("#main").append(formattedMobil);
 $("#main").append(formattedTwitter);
 $("#main").append(formattedEmail);
 $("#main").append(formattedGithub);
-
+//$("#main").append(HTMLskillsStart);
+$("#main").append(HTMLskills);
 
 //$("#main").append(work.position);
 //$("#main").append(education["school"]);
