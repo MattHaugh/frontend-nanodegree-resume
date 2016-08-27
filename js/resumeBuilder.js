@@ -34,7 +34,7 @@ console.log(str3);
 };
 
  var work = {
- 	"Jobs": [
+ 	"jobs": [
  	{
  		"title" : "Dish Washer",
  		"employer" : "Weddings by the Pond" ,
