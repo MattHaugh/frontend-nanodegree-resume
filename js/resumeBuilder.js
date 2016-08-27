@@ -122,9 +122,9 @@ for(jobs in work)
 
 	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work.jobs.employer);
 
-	var formattedWorkEmployer = HTMLworkTitle.replace("%data%", work.jobs.title);
+	var formattedWorkTittle = HTMLworkTitle.replace("%data%", work.jobs.title);
 
-	$("p:last").append(formattedWorkEmployer + formattedWorkEmployer);
+	$("p:last").append(formattedWorkEmployer + formattedWorkTittle);
 }
 
 
