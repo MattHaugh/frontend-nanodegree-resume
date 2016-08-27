@@ -116,6 +116,17 @@ $("#skills").append(formattedSkills);
 
 };
 
+for(jobs in work)
+{
+	$("#main").append(HTMLworkStart);
+
+	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work.jobs.employer);
+
+	var formattedWorkEmployer = HTMLworkTitle.replace("%data%", work.jobs.title);
+
+	$("p:last").append(formattedWorkEmployer + formattedWorkEmployer);
+}
+
 
 
 //$("#main").append(work.position);
