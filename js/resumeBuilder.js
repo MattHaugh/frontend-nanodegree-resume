@@ -118,6 +118,8 @@ $("#skills").append(formattedSkills);
 
 for(jobs in work)
 {
+	if(jobs.hasOwnProperty(jobs))
+	{
 	$("#main").append(HTMLworkStart);
 
 	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work.jobs(employer));
@@ -125,6 +127,7 @@ for(jobs in work)
 	var formattedWorkTittle = HTMLworkTitle.replace("%data%", work.jobs(title));
 
 	$("p:last").append(formattedWorkEmployer + formattedWorkTittle);
+	}
 }
 
 
