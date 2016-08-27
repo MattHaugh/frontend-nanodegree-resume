@@ -118,7 +118,7 @@ $("#skills").append(formattedSkills);
 
 for(jobs in work)
 {
-	if(jobs.hasOwnProperty(jobs))
+	if(jobs.hasOwnProperty(work))
 	{
 	$("#main").append(HTMLworkStart);
 
